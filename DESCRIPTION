@@ -1,0 +1,12 @@
+Package: boats
+Type: Package
+Title: Boating Accidents Analysis and Visualizations
+Description: Package that includes analysis function and visualizations for boating data csv. Data sourced from "https://www.data-liberation-project.org/datasets/uscg-boating-accident-report-database/"
+Version: 1.0.0
+Authors@R: person("Tyler", "Meyers", email = "tylermeyers351@gmail.com", role = c("aut", "cre", "cph"))
+License: MIT + file LICENSE
+Video: https://www.youtube.com/watch?v=AurmOduGnRY
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1
