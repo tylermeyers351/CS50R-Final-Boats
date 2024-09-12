@@ -3,10 +3,9 @@
 **Author:** Tyler Meyers  
 **Course:** CS50's Introduction to Programming with R  
 **Date:** September 12, 2024  
-**GitHub:** [Tyler Meyers 351](https://github.com/TylerMeyers351)
+**GitHub:** [tylermeyers351](https://github.com/TylerMeyers351)
 
-**Data Liberation Project:** [https://www.data-liberation-project.o...](https://www.data-liberation-project.org/datasets/)
-**Data Is Plural:** https://www.data-is-plural.com/
+
 
 ## Project Overview
 
@@ -17,6 +16,10 @@ The analysis is conducted using R, and the project implements functions to manip
 ## Data Source
 
 The dataset is provided by the U.S. Coast Guard through the Boating Accident Report Database (BARD) and is available via the **Data Liberation Project**.
+
+**Data Liberation Project:** [https://www.data-liberation-project.org/datasets/](https://www.data-liberation-project.org/datasets/)
+
+**Data Is Plural:** [https://www.data-is-plural.com/](https://www.data-is-plural.com/)
 
 ## Files and Code Structure
 
@@ -29,17 +32,18 @@ The dataset is provided by the U.S. Coast Guard through the Boating Accident Rep
   Each function includes custom documentation.
 
 - **Tests**: Unit tests are implemented for each of the functions. These tests can be run to ensure the functions are working correctly.
+- **Documentation**: Documentation for each function is provided in the 'man' folder.
 
 ## Visualizations
 
-The project generates several key visualizations to highlight important insights from the data:
+The project generates several key visualizations to highlight important insights from the data (see the graphs folder for corresponding code):
 
 - **Fatalities by Water Condition**: Most fatalities occur on calm water, followed by choppy and rough waters.
 - **Fatalities by Day**: A higher number of fatalities happen on weekends.
 - **Fatalities by Event Type**: Capsizing, flooding/swamping, and collisions with fixed objects are common causes of fatalities.
-- **Alcohol-Related Fatalities**: Alcohol is the leading cause of boating-related fatalities.
+- **Fatalities by Cause**: Alcohol is the leading cause of boating-related fatalities.
 
-These visualizations are saved as PNG files and can be used to visually explore trends in the data.
+These visualizations are saved as PNG files in the 'graphs' folder and can be used to visually explore trends in the data.
 
 ## Conclusion
 
@@ -47,4 +51,4 @@ This project demonstrates the use of R for data analysis, including data manipul
 
 ---
 
-*Note: Screenshots of the visualizations are in the 'graphs' folder.*
+*Note: The csv and it's corresponding RData file is not included in this repo. See above data sources.*
